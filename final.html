@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Final</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:24px; background:#0b0b10; color:#f2f2f2; }
+    .card { max-width: 760px; margin: 0 auto; padding: 22px; border-radius: 18px;
+            background: rgba(255,255,255,0.06); box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+    .btn { display:inline-block; padding:12px 16px; border-radius: 12px; text-decoration:none;
+           border:1px solid rgba(255,255,255,.25); color:#fff; }
+    .qr { display:block; margin: 18px auto; width: 220px; height: 220px; border-radius: 14px; background:#fff; }
+    .center { text-align:center; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Жинхэнэ бэлэг энд ❤️</h1>
+    <p class="center">Доорх QR-ийг уншуулаад “digital album”-аа нээгээрэй.</p>
+
+    <!-- ALBUM_LINK-ээ солино (Notion/Drive/Google Photos/өөр link) -->
+    <img class="qr"
+      src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=ALBUM_LINK"
+      alt="QR">
+
+    <div class="center">
+      <a class="btn" href="index.html">← Эхлэл рүү</a>
+    </div>
+  </div>
+</body>
+</html>
